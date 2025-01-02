@@ -3,8 +3,10 @@
 این پروژه شامل بکند نیز می‌شود
 
 ## installation
+<div dir="rtl">
 $${\color{red}first \space step:}$$
  به هر روشی که دوست دارید پروژه را در IDE خود اضافه کنید
 
 $${\color{red}second \space step:}$$
 [تیلویند](https://tailwindcss.com/docs/installation) را نصب کنید
+</div>
