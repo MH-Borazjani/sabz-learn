@@ -4,6 +4,7 @@
 
 ## installation
 <div dir="rtl">
+
 $${\color{red}first \space step:}$$
  به هر روشی که دوست دارید پروژه را در IDE خود اضافه کنید
 
