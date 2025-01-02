@@ -10,6 +10,20 @@
   <body>
     <svg class="hidden">
       <symbol
+        id="magnifying-glass"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+        ></path>
+      </symbol>
+      <symbol
         id="primary-icon"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 20 1020 750"
@@ -86,7 +100,7 @@
         ></path>
       </symbol>
     </svg>
-    <header class="bg-header-image">
+    <header class="bg-header-image pb-10">
       <!-- navbar -->
       <nav class="flex justify-between items-center mx-10 py-4 pb-10">
         <svg class="size-6 text-white"><use href="#bar3"></use></svg>
@@ -94,7 +108,7 @@
         <svg class="size-6 text-white"><use href="#shopping-bag"></use></svg>
       </nav>
       <!-- header text-->
-      <div class="text-center mx-16">
+      <div class="text-center mx-16 pb-10">
         <!-- title -->
         <h1 class="text-white mb-3">سبزلرن، اولین گام برنامه‌نویس شدن</h1>
         <!-- description -->
@@ -102,6 +116,18 @@
           با آکادمی خصوصی سبزلرن، علم برنامه‌نویسی رو با خیال راحت یاد بگیر و
           پیشرفت کن
         </p>
+      </div>
+
+      <!-- serch-box -->
+      <div
+        class="bg-white flex flex-row items-center mx-8 rounded-full p-2"
+      >
+        <!-- description -->
+        <input class="outline-none w-full" autocomplete="off" type="text" placeholder="جستجو در بین دوره‌ها ...">
+        <!-- Magnifying glass icon -->
+        <button type="submit">
+        <svg class="size-10 bg-green-600 rounded-full p-3 mr-1 text-white"><use href="#magnifying-glass"></use></svg>
+      </button>
       </div>
     </header>
     <script src="../js/index.js"></script>
