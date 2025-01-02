@@ -2,7 +2,16 @@
 module.exports = {
   content: ["./public/**/*.{html,js}","./js/**/*.js"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        DanaRegular:["DanaRegular","snas"],
+        DanaMedium:["DanaMedium","snas"],
+        DanaBold:["DanaBold","snas"],
+        Morabbalight:["morabbaLight","sans"],
+        MorabbaMedium:["morabbaMedium","sans"],
+        MorabbaBold:["MorabbaBold","sans"]
+      }
+    },
   },
   plugins: [],
 }
