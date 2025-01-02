@@ -584,8 +584,20 @@ video {
   height: 2.75rem;
 }
 
+.h-64 {
+  height: 16rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
 .shrink-0 {
   flex-shrink: 0;
+}
+
+.bg-header-image {
+  background-image: url('/public/images/hero-section-mobile.webp');
 }
 
 .text-white {

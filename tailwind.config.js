@@ -12,7 +12,7 @@ module.exports = {
         MorabbaBold:["MorabbaBold","sans"]
       },
       backgroundImage:{
-        "header-image":"url:"
+        'header-image': "url('/public/images/hero-section-mobile.webp')"
       }
     },
   },
