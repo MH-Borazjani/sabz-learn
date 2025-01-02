@@ -10,6 +10,9 @@ module.exports = {
         Morabbalight:["morabbaLight","sans"],
         MorabbaMedium:["morabbaMedium","sans"],
         MorabbaBold:["MorabbaBold","sans"]
+      },
+      backgroundImage:{
+        "header-image":"url:"
       }
     },
   },
