@@ -571,6 +571,10 @@ video {
   margin-right: auto;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-11 {
   height: 2.75rem;
 }
