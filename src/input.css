@@ -26,3 +26,14 @@
     font-family: morabbaMedium;
     src: url("../public/fonts/Morabba/woff2/morabba-Medium.woff2") format("woff2");
 }
+@layer base{
+    h1{
+        @apply text-xl font-DanaBold
+    }
+    p{
+        @apply font-DanaRegular
+    }
+    h3{
+        @apply font-medium
+    }
+}
