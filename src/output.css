@@ -554,8 +554,29 @@ video {
   display: none;
 }
 
-.font-MorabbaBold {
-  font-family: MorabbaBold, sans;
+.absolute {
+  position: absolute;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.h-11 {
+  height: 2.75rem;
+}
+
+.shrink-0 {
+  flex-shrink: 0;
 }
 
 @font-face{
@@ -592,4 +613,20 @@ video {
   font-family: morabbaMedium;
 
   src: url("../public/fonts/Morabba/woff2/morabba-Medium.woff2") format("woff2");
+}
+
+@media (min-width: 768px) {
+  .md\:static {
+    position: static;
+  }
+
+  .md\:h-10 {
+    height: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:h-14 {
+    height: 3.5rem;
+  }
 }
