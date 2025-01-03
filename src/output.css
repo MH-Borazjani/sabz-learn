@@ -591,6 +591,11 @@ h3 {
   margin-right: 2rem;
 }
 
+.my-14 {
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+}
+
 .mb-3 {
   margin-bottom: 0.75rem;
 }
@@ -605,6 +610,10 @@ h3 {
 
 .mr-1 {
   margin-right: 0.25rem;
+}
+
+.mb-14 {
+  margin-bottom: 3.5rem;
 }
 
 .box-border {
@@ -669,6 +678,10 @@ h3 {
   justify-content: space-between;
 }
 
+.justify-around {
+  justify-content: space-around;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
@@ -698,6 +711,14 @@ h3 {
 
 .bg-header-image {
   background-image: url('/public/images/hero-section-mobile.webp');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .p-1 {
@@ -806,6 +827,10 @@ h3 {
   text-align: center;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
@@ -850,4 +875,79 @@ h3 {
   font-family: morabbaMedium;
 
   src: url("../public/fonts/Morabba/woff2/morabba-Medium.woff2") format("woff2");
+}
+
+.\[\&\>\*\]\:text-white>* {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.\[\&\>div\>\*\]\:mb-2>div>* {
+  margin-bottom: 0.5rem;
+}
+
+.\[\&\>div\>\*\]\:font-DanaBold>div>* {
+  font-family: DanaBold, snas;
+}
+
+.\[\&\>div\>\*\]\:text-lg>div>* {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.\[\&\>div\>\*\]\:text-2xl>div>* {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.\[\&\>div\>\*\]\:text-xl>div>* {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.\[\&\>div\>\*\]\:font-bold>div>* {
+  font-weight: 700;
+}
+
+.\[\&\>div\>\*\]\:font-extrabold>div>* {
+  font-weight: 800;
+}
+
+.\[\&\>div\>img\]\:size-9>div>img {
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+.\[\&\>div\]\:flex>div {
+  display: flex;
+}
+
+.\[\&\>div\]\:flex-row>div {
+  flex-direction: row;
+}
+
+.\[\&\>div\]\:flex-col>div {
+  flex-direction: column;
+}
+
+.\[\&\>div\]\:items-center>div {
+  align-items: center;
+}
+
+.\[\&\>div\]\:justify-center>div {
+  justify-content: center;
+}
+
+.\[\&\>div\]\:text-center>div {
+  text-align: center;
+}
+
+.\[\&\>img\]\:size-9>img {
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+.\[\&\>img\]\:size-7>img {
+  width: 1.75rem;
+  height: 1.75rem;
 }

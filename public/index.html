@@ -100,7 +100,7 @@
         ></path>
       </symbol>
     </svg>
-    <header class="bg-header-image pb-10">
+    <header class="bg-header-image bg-no-repeat bg-cover pb-10">
       <!-- navbar -->
       <nav class="flex justify-between items-center mx-10 py-4 pb-10">
         <svg class="size-6 text-white"><use href="#bar3"></use></svg>
@@ -108,7 +108,7 @@
         <svg class="size-6 text-white"><use href="#shopping-bag"></use></svg>
       </nav>
       <!-- header text-->
-      <div class="text-center mx-16 pb-10">
+      <div class="text-center mx-16">
         <!-- title -->
         <h1 class="text-white mb-3">سبزلرن، اولین گام برنامه‌نویس شدن</h1>
         <!-- description -->
@@ -119,15 +119,54 @@
       </div>
 
       <!-- serch-box -->
+      <form action="" class="my-14">
+        <div class="bg-white flex flex-row items-center mx-8 rounded-full p-2">
+          <!-- input -->
+          <input
+            class="outline-none w-full"
+            autocomplete="off"
+            type="text"
+            placeholder="جستجو در بین دوره‌ها ..."
+          />
+          <!-- Magnifying glass icon -->
+          <button type="submit">
+            <svg class="size-10 bg-green-600 rounded-full p-3 mr-1 text-white">
+              <use href="#magnifying-glass"></use>
+            </svg>
+          </button>
+        </div>
+      </form>
+      <!-- header description(course,trainig hours,student) -->
       <div
-        class="bg-white flex flex-row items-center mx-8 rounded-full p-2"
+        class="flex flex-row justify-around text-center [&>*]:text-white [&>div>img]:size-9 [&>div]:flex [&>div]:flex-col [&>div]:items-center [&>div>*]:mb-2 [&>div>*]:font-DanaBold "
       >
-        <!-- description -->
-        <input class="outline-none w-full" autocomplete="off" type="text" placeholder="جستجو در بین دوره‌ها ...">
-        <!-- Magnifying glass icon -->
-        <button type="submit">
-        <svg class="size-10 bg-green-600 rounded-full p-3 mr-1 text-white"><use href="#magnifying-glass"></use></svg>
-      </button>
+        <!-- course time -->
+        <div class="">
+          <img
+            src="https://sabzlearn.ir/wp-content/themes/sabzlearn-theme/images/clock-min.webp"
+            alt=""
+          />
+          <span>1467</span>
+          <p class="">ساعت آموزش</p>
+        </div>
+        <!-- course number -->
+        <div class="">
+          <img
+            src="https://sabzlearn.ir/wp-content/themes/sabzlearn-theme/images/book-min.webp"
+            alt=""
+          />
+          <span>77</span>
+          <p>دوره آموزشی</p>
+        </div>
+        <!-- student number -->
+        <div class="">
+          <img
+            src="https://sabzlearn.ir/wp-content/themes/sabzlearn-theme/images/conversation-min.webp"
+            alt=""
+          />
+          <span>169499</span>
+          <p>دانشجو</p>
+        </div>
       </div>
     </header>
     <script src="../js/index.js"></script>
