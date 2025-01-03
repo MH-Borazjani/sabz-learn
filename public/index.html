@@ -11,6 +11,22 @@
     <!-- svg -->
     <svg class="hidden">
       <symbol
+        id="flash"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="size-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="m19.5 19.5-15-15m0 0v11.25m0-11.25h11.25"
+        />
+      </symbol>
+
+      <symbol
         id="magnifying-glass"
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
@@ -189,7 +205,18 @@
               ></span>
             </div>
             <!-- course section description-->
-            <p class="font-MorabbaBold text-xl">سکوی پرتاب شما به سمت موفقیت</p>
+            <p class="font-MorabbaBold text-xl mb-8">
+              سکوی پرتاب شما به سمت موفقیت
+            </p>
+          </div>
+          <!-- direct to all course -->
+          <div class="flex flex-row justify-end items-center [&>*]:text-black">
+            <!-- text -->
+            <span class="font-Morabbalight">همه دوره‌ها</span>
+            <!-- icon -->
+            <svg class="size-5">
+              <use href="#flash"></use>
+            </svg>
           </div>
         </div>
       </section>
