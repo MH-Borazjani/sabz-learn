@@ -7,7 +7,8 @@
     <link rel="icon" type="image/x-icon" href="./svg/favicon.svg" />
     <title>سبزلرن</title>
   </head>
-  <body>
+  <body class="bg-gray-100">
+    <!-- svg -->
     <svg class="hidden">
       <symbol
         id="magnifying-glass"
@@ -100,7 +101,8 @@
         ></path>
       </symbol>
     </svg>
-    <header class="bg-header-image bg-no-repeat bg-cover pb-10">
+    <!-- header -->
+    <header class="bg-header-image bg-no-repeat bg-cover pb-10 mb-10">
       <!-- navbar -->
       <nav class="flex justify-between items-center mx-10 py-4 pb-10">
         <svg class="size-6 text-white"><use href="#bar3"></use></svg>
@@ -138,7 +140,7 @@
       </form>
       <!-- header description(course,trainig hours,student) -->
       <div
-        class="flex flex-row justify-around text-center [&>*]:text-white [&>div>img]:size-9 [&>div]:flex [&>div]:flex-col [&>div]:items-center [&>div>*]:mb-2 [&>div>*]:font-DanaBold "
+        class="flex flex-row justify-around text-center [&>*]:text-white [&>div>img]:size-9 [&>div]:flex [&>div]:flex-col [&>div]:items-center [&>div>*]:mb-2 [&>div>*]:font-DanaBold"
       >
         <!-- course time -->
         <div class="">
@@ -169,6 +171,29 @@
         </div>
       </div>
     </header>
+    <!-- main -->
+    <main class="mx-auto">
+      <!-- section couruse page's includes: head course and course page structure -->
+      <section>
+        <!-- این تگ یک کانتینر است و هدف ان هیچی نیست جز اینکه فقط پدینگ در جهت ایکس بدهد. کاملا نامرئی است و رنگش را از بادی میگیرد که رنگ بادی هم هست گری -->
+        <div class="container">
+          <!-- head course page's-->
+          <div>
+            <!-- course section title -->
+            <div class="relative inline-block mb-4">
+              <!-- title -->
+              <h3 class="font-MorabbaMedium">آخرین دوره ما</h3>
+              <!-- bg title -->
+              <span
+                class="font-MorabbaMedium box-content absolute bottom-0 w-full h-2 bg-green-200 -z-10 -skew-x-[50deg]"
+              ></span>
+            </div>
+            <!-- course section description-->
+            <p class="font-MorabbaBold text-xl">سکوی پرتاب شما به سمت موفقیت</p>
+          </div>
+        </div>
+      </section>
+    </main>
     <script src="../js/index.js"></script>
   </body>
 </html>
