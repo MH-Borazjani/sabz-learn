@@ -18,8 +18,14 @@
     @apply size-5
   }
 }
-
-
+@layer components{
+  .title-sections-div{
+    @apply relative inline-block mb-4;
+  }
+  .title-sections-span{
+    @apply font-MorabbaMedium box-content absolute bottom-0 w-full h-2 bg-green-200 -z-10 -skew-x-[50deg];
+  }
+}
 @font-face {
   font-family: DanaRegular;
   src: url("../public/fonts/Dana/woff2/DanaFaNum-Regular.woff2") format("woff2");
