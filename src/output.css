@@ -565,7 +565,16 @@ p {
 }
 
 h3 {
-  font-weight: 500;
+  font-family: morabbaMedium, sans;
+}
+
+span {
+  font-family: DanaMedium, snas;
+}
+
+svg {
+  width: 1.25rem;
+  height: 1.25rem;
 }
 
 .container {
@@ -693,11 +702,6 @@ h3 {
   height: 3.5rem;
 }
 
-.size-5 {
-  width: 1.25rem;
-  height: 1.25rem;
-}
-
 .size-6 {
   width: 1.5rem;
   height: 1.5rem;
@@ -705,14 +709,6 @@ h3 {
 
 .h-2 {
   height: 0.5rem;
-}
-
-.h-5 {
-  height: 1.25rem;
-}
-
-.w-5 {
-  width: 1.25rem;
 }
 
 .w-full {
@@ -808,20 +804,6 @@ h3 {
   padding: 0.75rem;
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
-
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -843,20 +825,12 @@ h3 {
   font-family: DanaBold, snas;
 }
 
-.font-DanaRegular {
-  font-family: DanaRegular, snas;
-}
-
 .font-MorabbaBold {
   font-family: MorabbaBold, sans;
 }
 
 .font-MorabbaMedium {
   font-family: morabbaMedium, sans;
-}
-
-.font-Morabbalight {
-  font-family: morabbaLight, sans;
 }
 
 .text-xl {
@@ -884,37 +858,38 @@ h3 {
   outline-offset: 2px;
 }
 
-@font-face{
+@font-face {
   font-family: DanaRegular;
 
   src: url("../public/fonts/Dana/woff2/DanaFaNum-Regular.woff2") format("woff2");
 }
 
-@font-face{
+@font-face {
   font-family: DanaMedium;
 
   src: url("../public/fonts/Dana/woff2/DanaFaNum-Medium.woff2") format("woff2");
 }
 
-@font-face{
+@font-face {
   font-family: DanaBold;
 
-  src: url("../public/fonts/Dana/woff2/DanaFaNum-DemiBold.woff2") format("woff2");
+  src: url("../public/fonts/Dana/woff2/DanaFaNum-DemiBold.woff2")
+    format("woff2");
 }
 
-@font-face{
+@font-face {
   font-family: morabbaBold;
 
   src: url("../public/fonts/Morabba/woff2/Morabba-Bold.woff2") format("woff2");
 }
 
-@font-face{
+@font-face {
   font-family: morabbaLight;
 
   src: url("../public/fonts/Morabba/woff2/morabba-light.woff2") format("woff2");
 }
 
-@font-face{
+@font-face {
   font-family: morabbaMedium;
 
   src: url("../public/fonts/Morabba/woff2/morabba-Medium.woff2") format("woff2");
@@ -963,3 +938,34 @@ h3 {
   justify-content: center;
 }
 
+.\[\&\>div\]\:justify-between>div {
+  justify-content: space-between;
+}
+
+.\[\&\>div\]\:p-4>div {
+  padding: 1rem;
+}
+
+.\[\&\>div\]\:pb-3>div {
+  padding-bottom: 0.75rem;
+}
+
+.\[\&\>h3\]\:px-5>h3 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.\[\&\>h3\]\:py-4>h3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.\[\&\>p\]\:px-5>p {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.\[\&\>p\]\:py-4>p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}

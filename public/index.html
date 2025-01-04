@@ -57,7 +57,6 @@
         viewBox="0 0 24 24"
         stroke-width="1.5"
         stroke="currentColor"
-        class="size-6"
       >
         <path
           stroke-linecap="round"
@@ -120,7 +119,6 @@
         viewBox="0 0 24 24"
         stroke-width="1.5"
         stroke="currentColor"
-        class="size-6"
       >
         <path
           stroke-linecap="round"
@@ -238,7 +236,7 @@
             <!-- course section title -->
             <div class="relative inline-block mb-4">
               <!-- title -->
-              <h3 class="font-MorabbaMedium">آخرین دوره ما</h3>
+              <h3>آخرین دوره ما</h3>
               <!-- bg title -->
               <span
                 class="font-MorabbaMedium box-content absolute bottom-0 w-full h-2 bg-green-200 -z-10 -skew-x-[50deg]"
@@ -253,15 +251,17 @@
               class="flex flex-row justify-end items-center [&>*]:text-black"
             >
               <!-- text -->
-              <span class="font-Morabbalight">همه دوره‌ها</span>
+              <span>همه دوره‌ها</span>
               <!-- icon -->
-              <svg class="size-5">
+              <svg>
                 <use href="#flash"></use>
               </svg>
             </div>
           </div>
           <!-- course page structure -->
-          <div class="bg-white rounded-md">
+          <div
+            class="bg-white rounded-md [&>div]:flex [&>div]:flex-row [&>div]:justify-between [&>div]:p-4 [&>div]:pb-3 [&>h3]:py-4 [&>h3]:px-5 [&>p]:py-4 [&>p]:px-5"
+          >
             <!-- image  -->
             <a class="" href=""
               ><img
@@ -270,64 +270,60 @@
                 alt=""
             /></a>
             <!-- text section -->
-            <div class="py-4 px-5">
-              <!-- title -->
-              <h3 class="font-DanaBold text-xl pb-3">
-                آموزش جامع api نویسی با php
-              </h3>
-              <!-- description -->
-              <p class="font-DanaRegular">
-                API یکی از پر کاربردترین اجزای نرم افزاریه که حتما باید بلد
-                باشی! توی این دوره قراره api نویسی رو…
-              </p>
-            </div>
+            <!-- title -->
+            <h3 class="text-md pb-3">آموزش جامع api نویسی با php</h3>
+            <!-- description -->
+            <p>
+              API یکی از پر کاربردترین اجزای نرم افزاریه که حتما باید بلد باشی!
+              توی این دوره قراره api نویسی رو…
+            </p>
+
             <!-- teacher & rating -->
             <div
-              class="flex flex-row justify-between px-4 pb-3 border-b-2 border-solid rounded-md [&>div]:flex [&>div]:flex-row [&>div]:items-center [&>div]:justify-center"
+              class="border-b-2 border-solid rounded-md [&>div]:flex [&>div]:flex-row [&>div]:items-center [&>div]:justify-center"
             >
               <!-- teacher name and icon -->
               <div>
                 <!-- teacher icon -->
-                <svg class="w-5 h-5">
+                <svg>
                   <use href="#user"></use>
                 </svg>
                 <!-- teacher name -->
                 <span>معین باغشیخی</span>
               </div>
               <!-- rating number and rating icon -->
-              <div>
+              <div class="text-orange-400">
                 <!-- rating number -->
-                <span class="text-orange-400">5.0</span>
+                <span>5.0</span>
                 <!-- rating icon -->
-                <svg class="w-5 h-5 text-orange-400">
+                <svg>
                   <use href="#star-mini"></use>
                 </svg>
               </div>
             </div>
             <!-- student and price -->
-            <div class="flex flex-row justify-between items-center p-4 pb-3">
+            <div>
               <!-- student zone:icon and number-->
               <div class="flex flex-row justify-center items-center">
                 <!-- student icon who by course -->
-                <svg class="w-5 h-5">
+                <svg>
                   <use href="#users"></use>
                 </svg>
                 <!--  student number  -->
-                <span class="font-DanaRegular">112</span>
+                <span>112</span>
               </div>
               <!-- price zone:number and icon -->
-              <div>
+              <div class="text-green-600">
                 <!-- price  number-->
-                <span class="font-DanaBold text-green-600 text-xl"
-                  >1,200,000</span
-                >
+                <span class="font-DanaBold text-xl">1,200,000</span>
                 <!-- currency icon -->
-                <span class="font-DanaRegular text-green-600">تومانءء</span>
+                <span>تومانءء</span>
               </div>
             </div>
           </div>
         </div>
       </section>
+      
     </main>
     <script src="../js/index.js"></script>
   </body>
