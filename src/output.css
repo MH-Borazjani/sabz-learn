@@ -676,8 +676,16 @@ svg {
   margin-right: 0.25rem;
 }
 
+.mt-20 {
+  margin-top: 5rem;
+}
+
 .flex {
   display: flex;
+}
+
+.grid {
+  display: grid;
 }
 
 .hidden {
@@ -703,6 +711,10 @@ svg {
   width: 100%;
 }
 
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -725,6 +737,18 @@ svg {
 
 .justify-around {
   justify-content: space-around;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
 }
 
 .rounded-full {
@@ -766,6 +790,50 @@ svg {
   background-image: url('/public/images/hero-section-mobile.webp');
 }
 
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.from-\[\#FFB535\] {
+  --tw-gradient-from: #FFB535 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(255 181 53 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-\[\#30C5E4\] {
+  --tw-gradient-from: #30C5E4 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(48 197 228 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-\[\#2E9EFF\] {
+  --tw-gradient-from: #2E9EFF var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(46 158 255 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-\[\#FF3571\] {
+  --tw-gradient-from: #FF3571 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(255 53 113 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-\[\#F2295B\] {
+  --tw-gradient-to: #F2295B var(--tw-gradient-to-position);
+}
+
+.to-\[\#28E55D\] {
+  --tw-gradient-to: #28E55D var(--tw-gradient-to-position);
+}
+
+.to-\[\#9C33F7\] {
+  --tw-gradient-to: #9C33F7 var(--tw-gradient-to-position);
+}
+
+.to-\[\#880175\] {
+  --tw-gradient-to: #880175 var(--tw-gradient-to-position);
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -785,6 +853,11 @@ svg {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .pb-10 {
@@ -916,8 +989,30 @@ svg {
   justify-content: space-between;
 }
 
+.\[\&\>div\]\:overflow-hidden>div {
+  overflow: hidden;
+}
+
+.\[\&\>div\]\:rounded-xl>div {
+  border-radius: 0.75rem;
+}
+
+.\[\&\>div\]\:bg-red-600>div {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity, 1));
+}
+
+.\[\&\>div\]\:bg-gradient-to-r>div {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
 .\[\&\>div\]\:p-4>div {
   padding: 1rem;
+}
+
+.\[\&\>div\]\:py-20>div {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .\[\&\>div\]\:pb-3>div {
